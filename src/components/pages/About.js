@@ -12,6 +12,7 @@ export default function Home() {
       <Container>
          <Tab.Container id="left-tabs-example" defaultActiveKey="first">
             <Row>
+
                <Col sm={3}>
                   <Nav variant="pills" className="flex-column mt-3">
                      <Nav.Item>
@@ -31,6 +32,7 @@ export default function Home() {
                      </Nav.Item>
                   </Nav>
                </Col>
+
                <Col sm={9}>
                   <Tab.Content className="mt-3">
                      <Tab.Pane eventKey="first">
@@ -80,6 +82,7 @@ export default function Home() {
                      </Tab.Pane>
                   </Tab.Content>
                </Col>
+               
             </Row>
          </Tab.Container>
       </Container>
